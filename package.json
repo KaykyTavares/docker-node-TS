@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "rimraf dist && swc ./src -d dist",
-    "start": "node dist/src/index.js"
+    "start": "node dist/src/index.js",
+    "startdocker": "npm run build && npm run start"
   },
   "keywords": [],
   "author": "",
