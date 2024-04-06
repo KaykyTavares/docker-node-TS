@@ -1,0 +1,5 @@
+{
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommend"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"]
+}
